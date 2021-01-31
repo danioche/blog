@@ -1,0 +1,46 @@
+#+TITLE: Danioche's geek org-blog
+#+OPTIONS: toc:2 num:4 H:4 ^:nil pri:t
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="blog.css"/>
+#+OPTIONS: html-style:nil
+#+AUTHOR: @danioche
+
+* Documenting my personalization on linux
+[2021-01-30 sáb 12:00]
+
+The main goal of the project is to document the personalization that cost me a great amount of hours. The feel of owning the system is essential for feeling good working, coding, or just enjoing browsing.
+
+Common problems are because I'm a little bit of distro-hopping user. I like to change/tests new distros and that makes me lost some configuration and .files on the process.
+
+So the goals are:
+
+1. Control, on changes and versions made
+2. Document, how it is configured/personalized
+3. Automate, the configuration and tools easily
+
+*** How?
+
+In this section is described how it is implemented
+
+**** Control
+
+The best way on controlling the project is to use a repository on git, this is far known and it will help to create branches for "distro dependency".
+
+Also "versioning" makes a lot of sense when developing changes on *"dotfiles"*.
+
+**** Document
+
+The use of literate programming with *org-mode* is how I solved the problem on having a consistent documentation.
+
+**** Automate
+
+Using literate programing I can automate some configuration dot files to create, copy, modify the configuration files once the code-block is executed by the user allowing user to execute as wish the code blocks.
+
+
+* How to deobsfuscate CSS
+[2021-01-30 sáb]
+
+ This is simple, if the CSS is not linked to any page, just link it in the HTML and open the .html file on Firefox and open CSS inspection with Developers tools (F12).
+
+ Copy all the contents and paste it on a new file, now you have a readable CSS to work on.
+
+ Cheers.
