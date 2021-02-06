@@ -4,10 +4,15 @@
 #+OPTIONS: html-style:nil
 #+AUTHOR: @danioche
 
-* Documenting my personalization on linux
-[2021-01-30 sáb 12:00]
 
-The main goal of the project is to document the personalization that cost me a great amount of hours. The feel of owning the system is essential for feeling good working, coding, or just enjoing browsing.
+* Documenting my personalization on linux
+:PROPERTIES:
+  :UNNUMBERED: notoc
+:END:
+[2021-01-30 sáb]
+
+I will share with you the approach of one project that I'm working on it several months.
+The projects is aimed to document the personalization of my linux environment that took (and takes) me a great amount of hours. The feel of owning the system is essential for feeling good working, coding, or just enjoing browsing.
 
 Common problems are because I'm a little bit of distro-hopping user. I like to change/tests new distros and that makes me lost some configuration and .files on the process.
 
@@ -17,9 +22,9 @@ So the goals are:
 2. Document, how it is configured/personalized
 3. Automate, the configuration and tools easily
 
-*** How?
+*** How I'm dealing with this?
 
-In this section is described how it is implemented
+I followed the approach on splitting the problem in thouse 3 main issues:
 
 **** Control
 
@@ -35,11 +40,20 @@ The use of literate programming with *org-mode* is how I solved the problem on h
 
 Using literate programing I can automate some configuration dot files to create, copy, modify the configuration files once the code-block is executed by the user allowing user to execute as wish the code blocks.
 
+*** The project and some final conclusions
 
-* How to deobsfuscate CSS
+Finally the project is under review in a private repository at this moment I don't see it completed to be shared with you, but I will explain here the main sections:
+
+#+CAPTION: Main sections of the project - from Org file
+[[./img/linux-config-org-file-screenshot.png]]
+
+
+
+
+* How to deobfuscate CSS
 [2021-01-30 sáb]
 
- This is simple, if the CSS is not linked to any page, just link it in the HTML and open the .html file on Firefox and open CSS inspection with Developers tools (F12).
+ I found a very quite simple process to deobfuscate CSS files This is simple, if the CSS is not linked to any page, just link it in the HTML and open the .html file on Firefox and open CSS inspection with Developers tools (F12).
 
  Copy all the contents and paste it on a new file, now you have a readable CSS to work on.
 

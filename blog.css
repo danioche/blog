@@ -1951,7 +1951,9 @@ ul {
 }
 .title {
  margin:.8em auto;
- color:#000
+ color:#777;
+ font-family: Open Sans;
+ text-decoration: underline;
 }
 .subtitle,
 .title {
