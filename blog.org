@@ -1,9 +1,14 @@
 #+TITLE: Danioche's geek org-blog
-#+OPTIONS: toc:2 num:4 H:4 ^:nil pri:t
+#+OPTIONS: toc:nil num:4 H:4 ^:nil pri:t
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="blog.css"/>
 #+OPTIONS: html-style:nil
 #+AUTHOR: @danioche
 
+* M
+
+- [[Documenting my personalization on linux][Documenting my personalization on linux]]
+- [[How to deobfuscate CSS][How to deobfuscate CSS]]
+- [[Minimizing blog concept][Minimizing blog concept]]
 
 * Documenting my personalization on linux
 :PROPERTIES:
@@ -48,8 +53,6 @@ Finally the project is under review in a private repository at this moment I don
 [[./img/linux-config-org-file-screenshot.png]]
 
 
-
-
 * How to deobfuscate CSS
 [2021-01-30 sáb]
 
@@ -58,3 +61,24 @@ Finally the project is under review in a private repository at this moment I don
  Copy all the contents and paste it on a new file, now you have a readable CSS to work on.
 
  Cheers.
+
+* Minimizing blog concept
+[2021-02-06 sáb]
+
+ This is one of the main principles of this blog: to avoid bloated meta-information just to support content.
+
+ This inspiration comes from the every-day-use of Emacs during several projects in which I mostly integrate my personal workflow with professional workflow with Emacs.
+
+ Whata are the thoughts behind this blog then:
+
+ - Minimize the no-information data
+
+   In other words, every bit of information that you could download visiting this blog is needed for reading the content in proper way, the presentation layer info is minimal.
+
+ - Post everywhere
+
+   Once data is minized then the process of publishing is also faster and lightweight, this would allow me to mainly post with any GPRS connection sharing WiFi from my mobile on-the-go.
+
+ - Trolls safe
+
+   Trolls and Heaters are not wellcome, they are needed in www just because is human-nature, but avoiding the extra expossure on the Social Media this content is kind-of trolls-free, only will be visited (if so) by people interested, at least I hope so... (this is a trolls calling? maybe, inet usually works opposite as expected).
