@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme=""><head>
-    <title> Dani </title>
+    <title> Dani | Learning and adopting Hugo on this blog </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.80.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -29,10 +29,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://danioche.github.io/blog/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://danioche.github.io/blog/favicon/favicon-16x16.png">
 
-    <link rel="canonical" href="https://danioche.github.io/blog/">
+    <link rel="canonical" href="https://danioche.github.io/blog/post/learning-adopting-hugo/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="https://danioche.github.io/blog/index.xml" title="My geek blog" />
     
     
     
@@ -53,8 +52,8 @@
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://danioche.github.io/blog/img/thisIsLife.png"/>
 
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="Call me Dani"/>
+<meta name="twitter:title" content="Learning and adopting Hugo on this blog"/>
+<meta name="twitter:description" content="This is my very first post exported from Hugo&hellip; Let&rsquo;s learn!"/>
 
 
     
@@ -112,7 +111,7 @@
         
         
             
-            <li><a class="current"
+            <li><a 
                    href="/blog/"
                         
                    title="">Home</a></li>
@@ -148,156 +147,111 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-
     <div class="post  animated fadeInDown ">
-        
-        <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+        <div class="post-content">
+            
+            <div class="post-title">
+                <h3>Learning and adopting Hugo on this blog</h3>
+                
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date"> Sat, Apr 3, 2021 
+                                           </span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">3-minute read</span>
+                    </div>
+                
+            </div>
 
+            <p>This is my very first post exported from Hugo&hellip;
+Let&rsquo;s learn!</p>
+<ul>
+<li>Properties don&rsquo;t work.</li>
+<li>Title is not present</li>
+<li>Date is not present</li>
+</ul>
+<p>I try to move properties to the top. Does not work
+I move it on the subtree.
+I have included a title
+I have exported when cursor was inside the subtree and seems that is working!</p>
+<h2 id="my-learning-curve">My learning curve</h2>
+<p><strong>First you need to understand Hugo</strong></p>
+<p>I started with Hugo (<a href="https://gohugo.io/">https://gohugo.io/</a>) by experimenting with one
+beautiful theme <a href="https://themes.gohugo.io/anatole/">https://themes.gohugo.io/anatole/</a>, thanks to this
+the theme and the sample project I started to understand better
+how Hugo worked.</p>
+<p>The main concept that took me time to understand was how Hugo
+structured the project and the same time how <em>the hell</em> generates the
+published site code.</p>
+<p>You can follow this link to know how a Hugo project is strucutred:</p>
+<ul>
+<li><a href="https://gohugo.io/content-management/organization/">https://gohugo.io/content-management/organization/</a></li>
+</ul>
+<p>Installing and configuring the site was not too hard, the problem
+was <strong>getting used to</strong> the publishing process.</p>
+<p>Initially I thought that in some dir will be the generated files,
+but then realized that Hugo serves the content from memory so
+unless you specify the export there is no generated file.</p>
+<p>Once I understood the content generation and the structure then I
+started moving to the next problem. How I migrate / publish from
+my Org-mode?</p>
+<p><strong>Adding ox-hugo</strong></p>
+<p>This blog is mainly focused in the concept on how with the minimal
+over-enginering I can post, as I commented in previous posts.</p>
+<p>After managing to reduce the blog in one org file, one css and
+publishing and exporting with Emacs I found myself no too happy
+with the result because the lack of UI-kindyness. Then I returned
+to investigate in Hugo but I wanted to keep my posts and also the
+concept on being minimal avoiding server side and other kind of
+language to process or store simply text.</p>
+<p>So I revisited my Emacs configuration, I tried with Doom Emacs,
+but again the same&hellip; I find it over-bloated for just editing&hellip;</p>
+<p>I make up again my .emacs config with the esential and I added
+ox-hugo.</p>
+<p>Instructions here:</p>
+<ul>
+<li><a href="https://ox-hugo.scripter.co/">https://ox-hugo.scripter.co/</a> Main page</li>
+</ul>
+<p>Installation is a piece of cake, is just installing the package
+from MELPA, the problem (at least I had that problem) is
+understanding how the meta-data works and how you export the org
+files.</p>
+<p>In the Auto-exportation section I had the tips and tools to adopt
+the ox-hugo workflow <a href="https://ox-hugo.scripter.co/doc/auto-export-on-saving/">here is the relevant info</a>.</p>
+<p>As you can see on the beginning of this post you will find the
+final steps when I finally realized the meta-tags needed and how
+to export the org file (subtree in fact) to create automatically
+the post.</p>
+<p>The most relevant thing is also remarked in the documentation:</p>
+<ul>
+<li>HUGO_BASE_DIR</li>
+<li>HUGO_SECTION</li>
+</ul>
+<p>These properties once setted will allow org file to reach the
+correct destination folder and then have the posts published on
+place.</p>
+<h2 id="putting-all-together">Putting all together</h2>
+<p>Steps:</p>
+<ol>
+<li>Start with Hugo and some Theme</li>
+<li>Configure and modify the Theme and make it &ldquo;yours&rdquo;</li>
+<li>Go to Emacs and add ox-hugo</li>
+<li>Test with some org file configuring and exporting</li>
+<li>Ready to go!</li>
+</ol>
+<p>As you can see is not sooo hard, this could be your next week-end
+project if you are interested! Enjoy!</p>
+</div>
+        <div class="post-footer">
+            <div class="info">
+                
+                <span class="separator"><a class="tag" href="/blog/tags/hugo/">hugo</a><a class="tag" href="/blog/tags/org/">org</a></span>
+            </div>
+        </div>
+
+        
     </div>
 
-    
-    
-
-        <div class="post  animated fadeInDown ">
-            
-            <div class="post-title">
-                <h3><a href="/blog/post/learning-adopting-hugo/">Learning and adopting Hugo on this blog</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part">
-                    <p>This is my very first post exported from Hugo&hellip; Let&rsquo;s learn!</p>
-                    </div>
-            </div>
-
-            
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info">
-                        <em class="fas fa-calendar-day"></em>
-                            <span class="date"> Sat, Apr 3, 2021
-                                             </span>
-                        
-                        <span class="separator"><a class="tag" href="/blog/tags/hugo/">hugo</a><a class="tag" href="/blog/tags/org/">org</a></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-
-        <div class="post  animated fadeInDown ">
-            
-            <div class="post-title">
-                <h3><a href="/blog/post/revisiting-your-own-code/">Revisiting your own code</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part">
-                    <p>Almost two weeks ago I received a call for a good friend of mine, and also owner of an Hardware Store, those kind of familiar SMEs that are commited to survive through the years thanks for the every effort and their commitment to the service more over than the product.</p>
-                    </div>
-            </div>
-
-            
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info">
-                        <em class="fas fa-calendar-day"></em>
-                            <span class="date"> Sat, Feb 20, 2021
-                                             </span>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-
-        <div class="post  animated fadeInDown ">
-            
-            <div class="post-title">
-                <h3><a href="/blog/post/minimizing-blog-concept/">Minimizing the blog concept</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part">
-                    <p>This is one of the main principles of this blog: to avoid bloated meta-information just to support content.</p>
-                    </div>
-            </div>
-
-            
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info">
-                        <em class="fas fa-calendar-day"></em>
-                            <span class="date"> Sat, Feb 6, 2021
-                                             </span>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-
-        <div class="post  animated fadeInDown ">
-            
-            <div class="post-title">
-                <h3><a href="/blog/post/documenting-my-personalization-on-linux/">Documenting my personalization on linux</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part">
-                    <p>I will share with you the approach of one project that I&rsquo;m working on several months ago.</p>
-                    </div>
-            </div>
-
-            
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info">
-                        <em class="fas fa-calendar-day"></em>
-                            <span class="date"> Sat, Jan 30, 2021
-                                             </span>
-                        
-                        <span class="separator"><a class="tag" href="/blog/tags/org/">org</a><a class="tag" href="/blog/tags/emacs/">emacs</a><a class="tag" href="/blog/tags/dotfiles/">dotfiles</a></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-
-        <div class="post  animated fadeInDown ">
-            
-            <div class="post-title">
-                <h3><a href="/blog/post/how-to-deobfuscate-css/">How to deobfuscate CSS</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part">
-                    <p>I found a very quite simple process to deobfuscate CSS files This is simple, if the CSS is not linked to any page, just link it in the HTML and open the .</p>
-                    </div>
-            </div>
-
-            
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info">
-                        <em class="fas fa-calendar-day"></em>
-                            <span class="date"> Sat, Jan 30, 2021
-                                             </span>
-                        
-                        <span class="separator"><a class="tag" href="/blog/tags/css/">css</a><a class="tag" href="/blog/tags/tricks/">tricks</a></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-    <div class="pagination">
-        
-
-
-    </div>
 
         </div>
     </div>

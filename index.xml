@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My geek blog</title>
+    <link>https://danioche.github.io/blog/</link>
+    <description>Recent content on My geek blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 03 Apr 2021 00:00:00 +0200</lastBuildDate><atom:link href="https://danioche.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning and adopting Hugo on this blog</title>
+      <link>https://danioche.github.io/blog/post/learning-adopting-hugo/</link>
+      <pubDate>Sat, 03 Apr 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://danioche.github.io/blog/post/learning-adopting-hugo/</guid>
+      <description>This is my very first post exported from Hugo&amp;hellip; Let&amp;rsquo;s learn!</description>
+    </item>
+    
+    <item>
+      <title>Revisiting your own code</title>
+      <link>https://danioche.github.io/blog/post/revisiting-your-own-code/</link>
+      <pubDate>Sat, 20 Feb 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://danioche.github.io/blog/post/revisiting-your-own-code/</guid>
+      <description>Almost two weeks ago I received a call for a good friend of mine, and also owner of an Hardware Store, those kind of familiar SMEs that are commited to survive through the years thanks for the every effort and their commitment to the service more over than the product.</description>
+    </item>
+    
+    <item>
+      <title>Minimizing the blog concept</title>
+      <link>https://danioche.github.io/blog/post/minimizing-blog-concept/</link>
+      <pubDate>Sat, 06 Feb 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://danioche.github.io/blog/post/minimizing-blog-concept/</guid>
+      <description>This is one of the main principles of this blog: to avoid bloated meta-information just to support content.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://danioche.github.io/blog/about/</link>
+      <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://danioche.github.io/blog/about/</guid>
+      <description>This blog is written in Emacs using Org and exported with ox-hugo to an static generated Hugo web site.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://danioche.github.io/blog/contact/</link>
+      <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://danioche.github.io/blog/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Documenting my personalization on linux</title>
+      <link>https://danioche.github.io/blog/post/documenting-my-personalization-on-linux/</link>
+      <pubDate>Sat, 30 Jan 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://danioche.github.io/blog/post/documenting-my-personalization-on-linux/</guid>
+      <description>I will share with you the approach of one project that I&amp;rsquo;m working on several months ago.</description>
+    </item>
+    
+    <item>
+      <title>How to deobfuscate CSS</title>
+      <link>https://danioche.github.io/blog/post/how-to-deobfuscate-css/</link>
+      <pubDate>Sat, 30 Jan 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://danioche.github.io/blog/post/how-to-deobfuscate-css/</guid>
+      <description>I found a very quite simple process to deobfuscate CSS files This is simple, if the CSS is not linked to any page, just link it in the HTML and open the .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://danioche.github.io/blog/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://danioche.github.io/blog/archives/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
