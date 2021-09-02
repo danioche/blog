@@ -1,0 +1,46 @@
++++
+title = "Documenting my personalization on linux"
+author = ["@danioche"]
+date = 2021-01-30
+draft = false
++++
+
+I will share with you the approach of one project that I'm working on several months ago.
+The projects is aimed to document the personalization of my linux environment that took (and takes) me a great amount of hours. The feel of owning the system is essential for feeling good working, coding, or just enjoing browsing.
+
+Common problems are because I'm a little bit of distro-hopping user. I like to change/tests new distros and that makes me lost some configuration and .files on the process.
+
+So the goals are:
+
+1.  Control, on changes and versions made
+2.  Document, how it is configured/personalized
+3.  Automate, the configuration and tools easily
+
+
+## <span class="section-num">1</span> How I'm dealing with this? {#how-i-m-dealing-with-this}
+
+I followed the approach on splitting the problem in thouse 3 main issues:
+
+
+### <span class="section-num">1.1</span> Control {#control}
+
+The best way on controlling the project is to use a repository on git, this is far known and it will help to create branches for "distro dependency".
+
+Also "versioning" makes a lot of sense when developing changes on **"dotfiles"**.
+
+
+### <span class="section-num">1.2</span> Document {#document}
+
+The use of literate programming with **org-mode** is how I solved the problem on having a consistent documentation.
+
+
+### <span class="section-num">1.3</span> Automate {#automate}
+
+Using literate programing I can automate some configuration dot files to create, copy, modify the configuration files once the code-block is executed by the user allowing user to execute as wish the code blocks.
+
+
+## <span class="section-num">2</span> The project and some final conclusions {#the-project-and-some-final-conclusions}
+
+Finally the project is under review in a private repository at this moment I don't see it completed to be shared with you, but I will explain here the main sections:
+
+{{< figure src="/ox-hugo/linux-config-org-file-screenshot.png" caption="Figure 1: Main sections of the project - from Org file" >}}

@@ -3,103 +3,131 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="blog.css"/>
 #+OPTIONS: html-style:nil
 #+AUTHOR: @danioche
+#+HUGO_BASE_DIR: ./
+#+HUGO_SECTION: ./post
 
-* M
+* Documenting my personalization on linux                :org:emacs:dotfiles:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: documenting-my-personalization-on-linux
+  :EXPORT_DATE:  2021-01-30
+  :TITLE:    Documenting my personalization on linux
+  :Author:   @danioche
+  :END:
 
-- [[Revisiting your own code][Revisiting your own code]]
-- [[Minimizing the blog concept][Minimizing the blog concept]]
-- [[How to deobfuscate CSS][How to deobfuscate CSS]]
-- [[Documenting my personalization on linux][Documenting my personalization on linux]]
+  I will share with you the approach of one project that I'm working on several months ago.
+  The projects is aimed to document the personalization of my linux environment that took (and takes) me a great amount of hours. The feel of owning the system is essential for feeling good working, coding, or just enjoing browsing.
 
-* Documenting my personalization on linux
-:PROPERTIES:
-  :UNNUMBERED: notoc
-:END:
-[2021-01-30 sáb]
+  Common problems are because I'm a little bit of distro-hopping user. I like to change/tests new distros and that makes me lost some configuration and .files on the process.
 
-I will share with you the approach of one project that I'm working on it several months.
-The projects is aimed to document the personalization of my linux environment that took (and takes) me a great amount of hours. The feel of owning the system is essential for feeling good working, coding, or just enjoing browsing.
+  So the goals are:
 
-Common problems are because I'm a little bit of distro-hopping user. I like to change/tests new distros and that makes me lost some configuration and .files on the process.
-
-So the goals are:
-
-1. Control, on changes and versions made
-2. Document, how it is configured/personalized
-3. Automate, the configuration and tools easily
+  1. Control, on changes and versions made
+  2. Document, how it is configured/personalized
+  3. Automate, the configuration and tools easily
 
 *** How I'm dealing with this?
 
-I followed the approach on splitting the problem in thouse 3 main issues:
+    I followed the approach on splitting the problem in thouse 3 main issues:
 
 **** Control
 
-The best way on controlling the project is to use a repository on git, this is far known and it will help to create branches for "distro dependency".
+     The best way on controlling the project is to use a repository on git, this is far known and it will help to create branches for "distro dependency".
 
-Also "versioning" makes a lot of sense when developing changes on *"dotfiles"*.
+     Also "versioning" makes a lot of sense when developing changes on *"dotfiles"*.
 
 **** Document
 
-The use of literate programming with *org-mode* is how I solved the problem on having a consistent documentation.
+     The use of literate programming with *org-mode* is how I solved the problem on having a consistent documentation.
 
 **** Automate
 
-Using literate programing I can automate some configuration dot files to create, copy, modify the configuration files once the code-block is executed by the user allowing user to execute as wish the code blocks.
+     Using literate programing I can automate some configuration dot files to create, copy, modify the configuration files once the code-block is executed by the user allowing user to execute as wish the code blocks.
 
 *** The project and some final conclusions
 
-Finally the project is under review in a private repository at this moment I don't see it completed to be shared with you, but I will explain here the main sections:
+    Finally the project is under review in a private repository at this moment I don't see it completed to be shared with you, but I will explain here the main sections:
 
-#+CAPTION: Main sections of the project - from Org file
-[[./img/linux-config-org-file-screenshot.png]]
+    #+CAPTION: Main sections of the project - from Org file
+    [[./img/linux-config-org-file-screenshot.png]]
 
-* How to deobfuscate CSS
-[2021-01-30 sáb]
+* How to deobfuscate CSS                                         :css:tricks:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: how-to-deobfuscate-css
+  :EXPORT_DATE:  2021-01-30
+  :TITLE:    How to deobfuscate CSS
+  :Author:   @danioche
+  :END:
 
- I found a very quite simple process to deobfuscate CSS files This is simple, if the CSS is not linked to any page, just link it in the HTML and open the .html file on Firefox and open CSS inspection with Developers tools (F12).
+  I found a very quite simple process to deobfuscate CSS files This is
+  simple, if the CSS is not linked to any page, just link it in the
+  HTML and open the .html file on Firefox and open CSS inspection with
+  Developers tools (F12).
 
- Copy all the contents and paste it on a new file, now you have a readable CSS to work on.
+  Copy all the contents and paste it on a new file, now you have a
+  readable CSS to work on.
 
- Cheers.
+  Cheers.
+ 
+* Minimizing the blog concept                              :blogging:minimal:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: minimizing-blog-concept
+  :EXPORT_DATE:  2021-02-06
+  :TITLE:    Minimizing the blog concept
+  :Author:   @danioche
+  :END:
 
-* Minimizing the blog concept
-[2021-02-06 sáb]
+ This is one of the main principles of this blog: to avoid bloated
+ meta-information just to support content.
 
- This is one of the main principles of this blog: to avoid bloated meta-information just to support content.
-
- This inspiration comes from the every-day-use of Emacs during several projects in which I mostly integrate my personal workflow with professional workflow with Emacs.
+ This inspiration comes from the every-day-use of Emacs during several
+ projects in which I mostly integrate my personal workflow with
+ professional workflow with Emacs.
 
  Whata are the thoughts behind this blog then:
 
  - Minimize the no-information data
 
-   In other words, every bit of information that you could download visiting this blog is needed for reading the content in proper way, the presentation layer info is minimal.
+   In other words, every bit of information that you could download
+   visiting this blog is needed for reading the content in proper way,
+   the presentation layer info is minimal.
 
  - Post everywhere
 
-   Once data is minized then the process of publishing is also faster and lightweight, this would allow me to mainly post with any GPRS connection sharing WiFi from my mobile on-the-go.
+   Once data is minized then the process of publishing is also faster
+   and lightweight, this would allow me to mainly post with any GPRS
+   connection sharing WiFi from my mobile on-the-go.
 
  - Trolls safe
 
-   Trolls and Heaters are not wellcome, they are needed in www just because is human-nature, but avoiding the extra expossure on the Social Media this content is kind-of trolls-free, only will be visited (if so) by people interested, at least I hope so... (this is a trolls calling? maybe, inet usually works opposite as expected).
+   Trolls and Heaters are not wellcome, they are needed in www just
+   because is human-nature, but avoiding the extra expossure on the
+   Social Media this content is kind-of trolls-free, only will be
+   visited (if so) by people interested, at least I hope so... (this
+   is a trolls calling? maybe, inet usually works opposite as
+   expected).
 
-* Revisiting your own code
-[2021-02-20 sáb]
+* Revisiting your own code                                   :code:nostalgia:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: revisiting-your-own-code
+  :EXPORT_DATE: 2021-02-20
+  :TITLE:    Revisiting your own code
+  :Author:   Dani Pedroche
+  :END:
+  
+  Almost two weeks ago I received a call for a good friend of mine, and also owner
+  of an Hardware Store, those kind of familiar SMEs that are commited to survive
+  through the years thanks for the every effort and their commitment to the
+  service more over than the product.
 
-Almost two weeks ago I received a call for a good friend of mine, and also owner
-of an Hardware Store, those kind of familiar SMEs that are commited to survive
-through the years thanks for the every effort and their commitment to the
-service more over than the product.
-
-Returning to the point, I developed an small Web Application for managing the
-Hardware Store, very basic: Customers, Products, Categories, Billing, and so.
-That was on 2004, long time ago, the main porpuse of the project was to migrate
-from the previous software installed (MSDOS based, yes!). So I suggested to move
-to Server-Client capabilities with Web based system, due the lack of resources
-of the server I also suggested to go simple with alrady purchased software:
-Windows XP Pro. So you get the idea, IIS, ASP Classic (at these time I was
-starting .net but I was more handy with PHP, ASP and so,...). The thing is once
-you see the old-fashion code I was feeling with a mixture of shame and pride.
+  Returning to the point, I developed an small Web Application for managing the
+  Hardware Store, very basic: Customers, Products, Categories, Billing, and so.
+  That was on 2004, long time ago, the main porpuse of the project was to migrate
+  from the previous software installed (MSDOS based, yes!). So I suggested to move
+  to Server-Client capabilities with Web based system, due the lack of resources
+  of the server I also suggested to go simple with alrady purchased software:
+  Windows XP Pro. So you get the idea, IIS, ASP Classic (at these time I was
+  starting .net but I was more handy with PHP, ASP and so,...). The thing is once
+  you see the old-fashion code I was feeling with a mixture of shame and pride.
 
 ** The Spaggetti-code times
 
@@ -132,3 +160,211 @@ modifications and I realized that a 17 years old code was telling me some
 history about myself.
 
 Try it yourself, you may find some take aways from the exercise.
+* Learning and adopting Hugo on this blog                          :hugo:emacs:org:
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: learning-adopting-hugo
+  :EXPORT_DATE: 2021-04-03
+  :TITLE:    Learning and adopting Hugo on this blog
+  :Author:   Dani Pedroche
+  :END:
+  This is my very first post exported from Hugo... 
+  Let's learn!
+
+  - Properties don't work.
+  - Title is not present
+  - Date is not present
+
+  I try to move properties to the top. Does not work
+  I move it on the subtree.
+  I have included a title
+  I have exported when cursor was inside the subtree and seems that is working!
+
+** My learning curve
+
+   *First you need to understand Hugo*
+
+   I started with Hugo (https://gohugo.io/) by experimenting with one
+   beautiful theme https://themes.gohugo.io/anatole/, thanks to this
+   the theme and the sample project I started to understand better
+   how Hugo worked.
+
+   The main concept that took me time to understand was how Hugo
+   structured the project and the same time how /the hell/ generates the
+   published site code.
+
+   You can follow this link to know how a Hugo project is strucutred:
+   - https://gohugo.io/content-management/organization/
+
+   Installing and configuring the site was not too hard, the problem
+   was *getting used to* the publishing process.
+
+   Initially I thought that in some dir will be the generated files,
+   but then realized that Hugo serves the content from memory so
+   unless you specify the export there is no generated file.
+
+   Once I understood the content generation and the structure then I
+   started moving to the next problem. How I migrate / publish from
+   my Org-mode?
+
+   *Adding ox-hugo*
+
+   This blog is mainly focused in the concept on how with the minimal
+   over-enginering I can post, as I commented in previous posts.
+
+   After managing to reduce the blog in one org file, one css and
+   publishing and exporting with Emacs I found myself no too happy
+   with the result because the lack of UI-kindyness. Then I returned
+   to investigate in Hugo but I wanted to keep my posts and also the
+   concept on being minimal avoiding server side and other kind of
+   language to process or store simply text.
+
+   So I revisited my Emacs configuration, I tried with Doom Emacs,
+   but again the same... I find it over-bloated for just editing... 
+
+   I make up again my .emacs config with the esential and I added
+   ox-hugo.
+
+   Instructions here:
+   - https://ox-hugo.scripter.co/ Main page
+    
+   Installation is a piece of cake, is just installing the package
+   from MELPA, the problem (at least I had that problem) is
+   understanding how the meta-data works and how you export the org
+   files.
+
+   In the Auto-exportation section I had the tips and tools to adopt
+   the ox-hugo workflow [[https://ox-hugo.scripter.co/doc/auto-export-on-saving/][here is the relevant info]].
+
+   As you can see on the beginning of this post you will find the
+   final steps when I finally realized the meta-tags needed and how
+   to export the org file (subtree in fact) to create automatically
+   the post.
+
+   The most relevant thing is also remarked in the documentation: 
+   - HUGO_BASE_DIR
+   - HUGO_SECTION
+
+   These properties once setted will allow org file to reach the
+   correct destination folder and then have the posts published on
+   place. 
+
+** Putting all together
+
+   Steps:
+    
+   1) Start with Hugo and some Theme
+   2) Configure and modify the Theme and make it "yours"
+   3) Go to Emacs and add ox-hugo
+   4) Test with some org file configuring and exporting
+   5) Ready to go!
+
+   As you can see is not sooo hard, this could be your next week-end
+   project if you are interested! Enjoy!
+
+* Publish tool
+  
+  In the code below you may find the script to publish to blog.
+  Then commit push must be executed on the repo.
+
+  #+begin_src sh :results output
+
+  cp -rfv ~/web/public/* ~/blog/
+
+  #+end_src 
+
+  #+RESULTS:
+  #+begin_example
+  '/home/danioche/web/public/404.html' -> '/home/danioche/blog/404.html'
+  '/home/danioche/web/public/about/index.html' -> '/home/danioche/blog/about/index.html'
+  '/home/danioche/web/public/about-hugo/index.html' -> '/home/danioche/blog/about-hugo/index.html'
+  '/home/danioche/web/public/about-us/index.html' -> '/home/danioche/blog/about-us/index.html'
+  '/home/danioche/web/public/archives/index.html' -> '/home/danioche/blog/archives/index.html'
+  '/home/danioche/web/public/articles/index.html' -> '/home/danioche/blog/articles/index.html'
+  '/home/danioche/web/public/blog/index.html' -> '/home/danioche/blog/blog/index.html'
+  '/home/danioche/web/public/categories/index.html' -> '/home/danioche/blog/categories/index.html'
+  '/home/danioche/web/public/categories/themes/index.html' -> '/home/danioche/blog/categories/themes/index.html'
+  '/home/danioche/web/public/categories/themes/index.xml' -> '/home/danioche/blog/categories/themes/index.xml'
+  '/home/danioche/web/public/categories/syntax/index.html' -> '/home/danioche/blog/categories/syntax/index.html'
+  '/home/danioche/web/public/categories/syntax/index.xml' -> '/home/danioche/blog/categories/syntax/index.xml'
+  '/home/danioche/web/public/categories/index.xml' -> '/home/danioche/blog/categories/index.xml'
+  '/home/danioche/web/public/contact/index.html' -> '/home/danioche/blog/contact/index.html'
+  '/home/danioche/web/public/css/style.min.2277e4d1f5f913138c1883033695f7a9779a2dcdc66ae94d514bd151bebd8f78.css' -> '/home/danioche/blog/css/style.min.2277e4d1f5f913138c1883033695f7a9779a2dcdc66ae94d514bd151bebd8f78.css'
+  '/home/danioche/web/public/css/markupHighlight.min.f798cbda9aaa38f89eb38be6414bd082cfd71a6780375cbf67b6d2fb2b96491e.css' -> '/home/danioche/blog/css/markupHighlight.min.f798cbda9aaa38f89eb38be6414bd082cfd71a6780375cbf67b6d2fb2b96491e.css'
+  '/home/danioche/web/public/docs/index.html' -> '/home/danioche/blog/docs/index.html'
+  '/home/danioche/web/public/favicon/favicon.ico' -> '/home/danioche/blog/favicon/favicon.ico'
+  '/home/danioche/web/public/favicons/favicon.ico' -> '/home/danioche/blog/favicons/favicon.ico'
+  '/home/danioche/web/public/images/landscape.jpg' -> '/home/danioche/blog/images/landscape.jpg'
+  '/home/danioche/web/public/images/profile.jpg' -> '/home/danioche/blog/images/profile.jpg'
+  '/home/danioche/web/public/images/site-feature-image.png' -> '/home/danioche/blog/images/site-feature-image.png'
+  '/home/danioche/web/public/img/avatar.png' -> '/home/danioche/blog/img/avatar.png'
+  '/home/danioche/web/public/img/avatar.xcf' -> '/home/danioche/blog/img/avatar.xcf'
+  '/home/danioche/web/public/img/linux-config-org-file-screenshot.png' -> '/home/danioche/blog/img/linux-config-org-file-screenshot.png'
+  '/home/danioche/web/public/img/linux-config-org-file-screenshot.xcf' -> '/home/danioche/blog/img/linux-config-org-file-screenshot.xcf'
+  '/home/danioche/web/public/img/thisIsLife.png' -> '/home/danioche/blog/img/thisIsLife.png'
+  '/home/danioche/web/public/index.html' -> '/home/danioche/blog/index.html'
+  '/home/danioche/web/public/index.xml' -> '/home/danioche/blog/index.xml'
+  '/home/danioche/web/public/js/anatole-header.min.0c05c0a90d28c968a1cad4fb31abd0b8e1264e788ccefed022ae1d3b6f627514.js' -> '/home/danioche/blog/js/anatole-header.min.0c05c0a90d28c968a1cad4fb31abd0b8e1264e788ccefed022ae1d3b6f627514.js'
+  '/home/danioche/web/public/js/anatole-theme-switcher.min.8ef71e0fd43f21a303733dbbecae5438b791d2b826c68a9883bd7aa459a076d2.js' -> '/home/danioche/blog/js/anatole-theme-switcher.min.8ef71e0fd43f21a303733dbbecae5438b791d2b826c68a9883bd7aa459a076d2.js'
+  '/home/danioche/web/public/js/medium-zoom.min.2d6fd0be87fa98f0c9b4dc2536b312bbca48757f584f6ea1f394abc9bcc38fbc.js' -> '/home/danioche/blog/js/medium-zoom.min.2d6fd0be87fa98f0c9b4dc2536b312bbca48757f584f6ea1f394abc9bcc38fbc.js'
+  '/home/danioche/web/public/ox-hugo/linux-config-org-file-screenshot.png' -> '/home/danioche/blog/ox-hugo/linux-config-org-file-screenshot.png'
+  '/home/danioche/web/public/page/1/index.html' -> '/home/danioche/blog/page/1/index.html'
+  '/home/danioche/web/public/post/migrate-from-jekyl/index.html' -> '/home/danioche/blog/post/migrate-from-jekyl/index.html'
+  '/home/danioche/web/public/post/emoji-support/index.html' -> '/home/danioche/blog/post/emoji-support/index.html'
+  '/home/danioche/web/public/post/figure-shortcode/index.html' -> '/home/danioche/blog/post/figure-shortcode/index.html'
+  '/home/danioche/web/public/post/image-test/index.html' -> '/home/danioche/blog/post/image-test/index.html'
+  '/home/danioche/web/public/post/math-typesetting/index.html' -> '/home/danioche/blog/post/math-typesetting/index.html'
+  '/home/danioche/web/public/post/placeholder-text/index.html' -> '/home/danioche/blog/post/placeholder-text/index.html'
+  '/home/danioche/web/public/post/markdown-syntax/index.html' -> '/home/danioche/blog/post/markdown-syntax/index.html'
+  '/home/danioche/web/public/post/rich-content/index.html' -> '/home/danioche/blog/post/rich-content/index.html'
+  '/home/danioche/web/public/post/index.html' -> '/home/danioche/blog/post/index.html'
+  '/home/danioche/web/public/post/index.xml' -> '/home/danioche/blog/post/index.xml'
+  '/home/danioche/web/public/post/documenting-my-personalization-on-linux/index.html' -> '/home/danioche/blog/post/documenting-my-personalization-on-linux/index.html'
+  '/home/danioche/web/public/post/how-to-deobfuscate-css/index.html' -> '/home/danioche/blog/post/how-to-deobfuscate-css/index.html'
+  '/home/danioche/web/public/post/minimizing-blog-concept/index.html' -> '/home/danioche/blog/post/minimizing-blog-concept/index.html'
+  '/home/danioche/web/public/post/learning-adopting-hugo/index.html' -> '/home/danioche/blog/post/learning-adopting-hugo/index.html'
+  '/home/danioche/web/public/post/revisiting-your-own-code/index.html' -> '/home/danioche/blog/post/revisiting-your-own-code/index.html'
+  '/home/danioche/web/public/posts/index.html' -> '/home/danioche/blog/posts/index.html'
+  '/home/danioche/web/public/robots.txt' -> '/home/danioche/blog/robots.txt'
+  '/home/danioche/web/public/showcase/index.html' -> '/home/danioche/blog/showcase/index.html'
+  '/home/danioche/web/public/sitemap.xml' -> '/home/danioche/blog/sitemap.xml'
+  '/home/danioche/web/public/tags/demo/index.html' -> '/home/danioche/blog/tags/demo/index.html'
+  '/home/danioche/web/public/tags/demo/index.xml' -> '/home/danioche/blog/tags/demo/index.xml'
+  '/home/danioche/web/public/tags/css/index.html' -> '/home/danioche/blog/tags/css/index.html'
+  '/home/danioche/web/public/tags/css/index.xml' -> '/home/danioche/blog/tags/css/index.xml'
+  '/home/danioche/web/public/tags/emoji/index.html' -> '/home/danioche/blog/tags/emoji/index.html'
+  '/home/danioche/web/public/tags/emoji/index.xml' -> '/home/danioche/blog/tags/emoji/index.xml'
+  '/home/danioche/web/public/tags/html/index.html' -> '/home/danioche/blog/tags/html/index.html'
+  '/home/danioche/web/public/tags/html/index.xml' -> '/home/danioche/blog/tags/html/index.xml'
+  '/home/danioche/web/public/tags/index.html' -> '/home/danioche/blog/tags/index.html'
+  '/home/danioche/web/public/tags/index/index.html' -> '/home/danioche/blog/tags/index/index.html'
+  '/home/danioche/web/public/tags/index/index.xml' -> '/home/danioche/blog/tags/index/index.xml'
+  '/home/danioche/web/public/tags/privacy/index.html' -> '/home/danioche/blog/tags/privacy/index.html'
+  '/home/danioche/web/public/tags/privacy/index.xml' -> '/home/danioche/blog/tags/privacy/index.xml'
+  '/home/danioche/web/public/tags/markdown/index.html' -> '/home/danioche/blog/tags/markdown/index.html'
+  '/home/danioche/web/public/tags/markdown/index.xml' -> '/home/danioche/blog/tags/markdown/index.xml'
+  '/home/danioche/web/public/tags/shortcode/index.html' -> '/home/danioche/blog/tags/shortcode/index.html'
+  '/home/danioche/web/public/tags/shortcode/index.xml' -> '/home/danioche/blog/tags/shortcode/index.xml'
+  '/home/danioche/web/public/tags/shortcodes/index.html' -> '/home/danioche/blog/tags/shortcodes/index.html'
+  '/home/danioche/web/public/tags/shortcodes/index.xml' -> '/home/danioche/blog/tags/shortcodes/index.xml'
+  '/home/danioche/web/public/tags/text/index.html' -> '/home/danioche/blog/tags/text/index.html'
+  '/home/danioche/web/public/tags/text/index.xml' -> '/home/danioche/blog/tags/text/index.xml'
+  '/home/danioche/web/public/tags/thumbnail/index.html' -> '/home/danioche/blog/tags/thumbnail/index.html'
+  '/home/danioche/web/public/tags/thumbnail/index.xml' -> '/home/danioche/blog/tags/thumbnail/index.xml'
+  '/home/danioche/web/public/tags/index.xml' -> '/home/danioche/blog/tags/index.xml'
+  '/home/danioche/web/public/tags/dotfiles/index.html' -> '/home/danioche/blog/tags/dotfiles/index.html'
+  '/home/danioche/web/public/tags/dotfiles/index.xml' -> '/home/danioche/blog/tags/dotfiles/index.xml'
+  '/home/danioche/web/public/tags/hugo/index.html' -> '/home/danioche/blog/tags/hugo/index.html'
+  '/home/danioche/web/public/tags/hugo/index.xml' -> '/home/danioche/blog/tags/hugo/index.xml'
+  '/home/danioche/web/public/tags/org/index.html' -> '/home/danioche/blog/tags/org/index.html'
+  '/home/danioche/web/public/tags/org/index.xml' -> '/home/danioche/blog/tags/org/index.xml'
+  '/home/danioche/web/public/tags/tricks/index.html' -> '/home/danioche/blog/tags/tricks/index.html'
+  '/home/danioche/web/public/tags/tricks/index.xml' -> '/home/danioche/blog/tags/tricks/index.xml'
+  '/home/danioche/web/public/tags/emacs/index.html' -> '/home/danioche/blog/tags/emacs/index.html'
+  '/home/danioche/web/public/tags/emacs/index.xml' -> '/home/danioche/blog/tags/emacs/index.xml'
+  #+end_example
+  
+* Footnotes
+* COMMENT Local Variables                          :ARCHIVE:
+# Local Variables:
+# eval: (org-hugo-auto-export-mode)
+# End:

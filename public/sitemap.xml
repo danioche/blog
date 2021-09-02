@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://danioche.github.io/blog/</loc>
+    <lastmod>2021-04-03T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/tags/hugo/</loc>
+    <lastmod>2021-04-03T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/post/learning-adopting-hugo/</loc>
+    <lastmod>2021-04-03T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/tags/org/</loc>
+    <lastmod>2021-04-03T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/post/</loc>
+    <lastmod>2021-04-03T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/tags/</loc>
+    <lastmod>2021-04-03T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/post/revisiting-your-own-code/</loc>
+    <lastmod>2021-02-20T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/post/minimizing-blog-concept/</loc>
+    <lastmod>2021-02-06T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/about/</loc>
+    <lastmod>2021-01-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/contact/</loc>
+    <lastmod>2021-01-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/tags/css/</loc>
+    <lastmod>2021-01-30T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/post/documenting-my-personalization-on-linux/</loc>
+    <lastmod>2021-01-30T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/tags/dotfiles/</loc>
+    <lastmod>2021-01-30T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/tags/emacs/</loc>
+    <lastmod>2021-01-30T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/post/how-to-deobfuscate-css/</loc>
+    <lastmod>2021-01-30T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/tags/tricks/</loc>
+    <lastmod>2021-01-30T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/tags/index/</loc>
+  </url>
+  
+</urlset>
