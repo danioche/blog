@@ -13,7 +13,9 @@
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0100</pubDate>
       
       <guid>https://danioche.github.io/blog/post/getting-lost-and-found/</guid>
-      <description>It&amp;rsquo;s really frustrating to be following your own footsteps every time, as you may notice I love exploring, trying new things, tools, commands, etc&amp;hellip; I would say that I&amp;rsquo;m not the only one that &amp;ldquo;learned&amp;rdquo; something new on the terminal after looking for some solutions online and reading some fucking manuals and once configured properly then you forget it almost instantly.</description>
+      
+        <description>It&amp;rsquo;s really frustrating to be following your own footsteps every time, as you may notice I love exploring, trying new things, tools, commands, etc&amp;hellip; I would say that I&amp;rsquo;m not the only one that &amp;ldquo;learned&amp;rdquo; something new on the terminal after looking for some solutions online and reading some fucking manuals and once configured properly then you forget it almost instantly.</description>
+      
     </item>
     
     <item>
@@ -22,7 +24,9 @@
       <pubDate>Sat, 03 Apr 2021 00:00:00 +0200</pubDate>
       
       <guid>https://danioche.github.io/blog/post/learning-adopting-hugo/</guid>
-      <description>This is my very first post exported from Hugo&amp;hellip; Let&amp;rsquo;s learn!</description>
+      
+        <description>This is my very first post exported from Hugo&amp;hellip; Let&amp;rsquo;s learn!</description>
+      
     </item>
     
     <item>
@@ -31,7 +35,9 @@
       <pubDate>Sat, 30 Jan 2021 00:00:00 +0100</pubDate>
       
       <guid>https://danioche.github.io/blog/post/documenting-my-personalization-on-linux/</guid>
-      <description>I will share with you the approach of one project that I&amp;rsquo;m working on several months ago.</description>
+      
+        <description>I will share with you the approach of one project that I&amp;rsquo;m working on several months ago.</description>
+      
     </item>
     
   </channel>

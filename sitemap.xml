@@ -48,6 +48,16 @@
   </url>
   
   <url>
+    <loc>https://danioche.github.io/blog/tags/code/</loc>
+    <lastmod>2021-02-20T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/tags/nostalgia/</loc>
+    <lastmod>2021-02-20T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://danioche.github.io/blog/post/revisiting-your-own-code/</loc>
     <lastmod>2021-02-20T00:00:00+01:00</lastmod>
   </url>
@@ -99,10 +109,6 @@
   
   <url>
     <loc>https://danioche.github.io/blog/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://danioche.github.io/blog/post/blog/</loc>
   </url>
   
   <url>
