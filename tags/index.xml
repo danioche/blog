@@ -6,22 +6,40 @@
     <description>Recent content in Tags on My geek blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Apr 2021 00:00:00 +0200</lastBuildDate><atom:link href="https://danioche.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://danioche.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>hugo</title>
-      <link>https://danioche.github.io/blog/tags/hugo/</link>
-      <pubDate>Sat, 03 Apr 2021 00:00:00 +0200</pubDate>
+      <title>emacs</title>
+      <link>https://danioche.github.io/blog/tags/emacs/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0100</pubDate>
       
-      <guid>https://danioche.github.io/blog/tags/hugo/</guid>
+      <guid>https://danioche.github.io/blog/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gtd</title>
+      <link>https://danioche.github.io/blog/tags/gtd/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://danioche.github.io/blog/tags/gtd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>org</title>
       <link>https://danioche.github.io/blog/tags/org/</link>
-      <pubDate>Sat, 03 Apr 2021 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0100</pubDate>
       
       <guid>https://danioche.github.io/blog/tags/org/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://danioche.github.io/blog/tags/hugo/</link>
+      <pubDate>Sat, 03 Apr 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://danioche.github.io/blog/tags/hugo/</guid>
       <description></description>
     </item>
     
@@ -40,15 +58,6 @@
       <pubDate>Sat, 30 Jan 2021 00:00:00 +0100</pubDate>
       
       <guid>https://danioche.github.io/blog/tags/dotfiles/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>emacs</title>
-      <link>https://danioche.github.io/blog/tags/emacs/</link>
-      <pubDate>Sat, 30 Jan 2021 00:00:00 +0100</pubDate>
-      
-      <guid>https://danioche.github.io/blog/tags/emacs/</guid>
       <description></description>
     </item>
     
