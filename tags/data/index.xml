@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data on My geek blog</title>
+    <link>https://danioche.github.io/blog/tags/data/</link>
+    <description>Recent content in data on My geek blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 16 Jan 2022 00:00:00 +0100</lastBuildDate><atom:link href="https://danioche.github.io/blog/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visualizing data with Javascript</title>
+      <link>https://danioche.github.io/blog/post/visualizing-data-javascript/</link>
+      <pubDate>Sun, 16 Jan 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://danioche.github.io/blog/post/visualizing-data-javascript/</guid>
+      
+        <description>Recently I found D3js project, I really found it interesting and I made a short project to try to implement data visualization using this library.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -7,7 +7,7 @@
   <title>
     Dani
       |
-      org
+      Visualizing data with Javascript
 
 
     
@@ -56,12 +56,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon/favicon-16x16.png" />
 
-  <link rel="canonical" href="https://danioche.github.io/blog/tags/org/" />
+  <link rel="canonical" href="https://danioche.github.io/blog/post/visualizing-data-javascript/" />
 
   
-  <link rel="alternate" type="application/rss+xml" href="/blog/tags/org/index.xml" title="My geek blog" />
-
-
   
   
   
@@ -86,8 +83,8 @@
   <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://danioche.github.io/blog/img/thisIsLife.png"/>
 
-<meta name="twitter:title" content="org"/>
-<meta name="twitter:description" content="Call me Dani"/>
+<meta name="twitter:title" content="Visualizing data with Javascript"/>
+<meta name="twitter:description" content="Recently I found D3js project, I really found it interesting and I made a short project to try to implement data visualization using this library."/>
 
 
 
@@ -96,6 +93,91 @@
 
   
   
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Visualizing data with Javascript",
+        "headline": "Visualizing data with Javascript",
+        "alternativeHeadline": "",
+        "description": "
+      
+        Recently I found D3js project, I really found it interesting and I made a short project to try to implement data visualization using this library.
+
+
+      
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/danioche.github.io\/blog\/post\/visualizing-data-javascript\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "[@danioche]"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "[@danioche]"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "[@danioche]"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "[@danioche]"
+        },
+        "copyrightYear" : "2022",
+        "dateCreated": "2022-01-16T00:00:00.00Z",
+        "datePublished": "2022-01-16T00:00:00.00Z",
+        "dateModified": "2022-01-16T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": ["@danioche"],
+            "url": "https://danioche.github.io/blog/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/danioche.github.io\/blog\/favicon\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "https://danioche.github.io/blog/img/thisIsLife.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "https:\/\/danioche.github.io\/blog\/post\/visualizing-data-javascript\/",
+        "wordCount" : "374",
+        "genre" : [ ],
+        "keywords" : [ 
+      
+      "javascript"
+
+    
+      
+        ,
+
+      
+      "data"
+
+    ]
+    }
+  </script>
+
+
 
 </head>
 <body>
@@ -255,73 +337,100 @@
         <div class="autopagerize_page_element">
           <div class="content">
   <div
-    class="archive 
+    class="post 
       animated fadeInDown
 
     "
   >
-    <ul class="list-with-title">
+    <div class="post-content">
       
-        <div class="listing-title">2021</div>
+      <div class="post-title">
+        <h1>Visualizing data with Javascript</h1>
         
-          <ul class="listing">
-            <div class="listing-item">
-              <div class="listing-post">
-                <a href="/blog/post/getting-lost-and-found/" title="Getting lost and found">Getting lost and found</a>
-                <div class="post-time">
-                  <span class="date"
-                    >
-                      Nov 1
+          <div class="info">
+            <em class="fas fa-calendar-day"></em>
+            <span class="date"
+              >
+                Sun, Jan 16, 2022
 
 
-                    </span
-                  >
-                </div>
-              </div>
-            </div>
-          </ul>
+              </span
+            >
+            <em class="fas fa-stopwatch"></em>
+            <span class="reading-time">2-minute read</span>
+          </div>
 
         
-          <ul class="listing">
-            <div class="listing-item">
-              <div class="listing-post">
-                <a href="/blog/post/learning-adopting-hugo/" title="Learning and adopting Hugo on this blog">Learning and adopting Hugo on this blog</a>
-                <div class="post-time">
-                  <span class="date"
-                    >
-                      Apr 3
+      </div><p>Recently I found <a href="https://d3js.org">D3js</a> project, I really found it interesting and I
+made a short project to try to implement data visualization using
+this library. This post is about the process.</p>
+<figure>
+    <img src="/blog/img/CovidVsYou.png"
+         alt="Figure 1: CovidVsYou screenshot"/> <figcaption>
+            <p>Figure 1: CovidVsYou screenshot</p>
+        </figcaption>
+</figure>
 
-
-                    </span
-                  >
-                </div>
-              </div>
-            </div>
-          </ul>
+<p>It was difficult for me at the beginnig to understand the
+development workflow for this library; the main issue I had was
+finding the examples on the <strong>observablehq.com</strong>. The main tutorials
+from the official web page <a href="https://d3js.org/">https://d3js.org/</a> leads you to learn D3
+inside ObservableHQ platform, but I just wanted to learn D3.js on
+the basis.</p>
+<p>Hopefully I found this page: <a href="https://www.d3-graph-gallery.com/index.html">https://www.d3-graph-gallery.com/index.html</a></p>
+<p>With the tutorials found I was able to manage to start the project.</p>
+<p>The project that i&rsquo;ve created to apply these concepts/libraries is
+kind-of-stupid :) I feel sorry, I called: <strong>&ldquo;Covid vs You&rdquo;</strong>.</p>
+<p>I&rsquo;ll try to explain: the aim of the project was to visualize the
+Covid data (from Spain, in regard of total of positive tests
+reported) and navigate the data exploring photos that the
+user/me/you took during the pandemic. What I was envisioning was the
+paradox between the visual effect on the epidemic contect against
+your/mine &ldquo;happy&rdquo; photos (hopefully). I made to myself the following
+questions:</p>
+<ul>
+<li>Where were you being and doing during this global mess?</li>
+<li>How you resisted against all this?</li>
+<li>Did you had good times, after all?</li>
+</ul>
+<p>I hope so.</p>
+<p>Because I wanted to relate the data of the reported positive cases
+and the data extracted from the pictures I needed to read the meta
+info from the JPG files. This is possible by using the npm
+javascript library <a href="https://github.com/exif-js/exif-js">https://github.com/exif-js/exif-js</a></p>
+<p>Also I wanted to use 100% Emacs during the development of this
+project avoiding to use VSCode that is what I&rsquo;m very used to.</p>
+<p>What I learned?</p>
+<ul>
+<li>How to create interactive SVG graphs reading from CSV files with
+D3js</li>
+<li>How to add npm libraries to a Web project</li>
+<li>How to start a simple Web server using npx</li>
+<li>How to read the Meta information of JPG files</li>
+</ul>
+<p>Maybe you could find useful the project if you are interested in one
+or more of these topics, if so, fell free to visit the repo it is
+published on my Github Repo:</p>
+<ul>
+<li><a href="https://github.com/danioche/CovidVsYou">https://github.com/danioche/CovidVsYou</a></li>
+</ul>
+<p>You will find on the Readme the instructions to install and to use it.</p>
+</div>
+    <div class="post-footer">
+      <div class="info">
+        
 
         
-          <ul class="listing">
-            <div class="listing-item">
-              <div class="listing-post">
-                <a href="/blog/post/documenting-my-personalization-on-linux/" title="Documenting my personalization on linux">Documenting my personalization on linux</a>
-                <div class="post-time">
-                  <span class="date"
-                    >
-                      Jan 30
+          <span class="separator"><a class="tag" href="/blog/tags/javascript/">javascript</a><a class="tag" href="/blog/tags/data/">data</a></span>
 
 
-                    </span
-                  >
-                </div>
-              </div>
-            </div>
-          </ul>
+
 
         
+      </div>
+    </div>
 
-
-      
-    </ul>
+    
   </div>
 
 
