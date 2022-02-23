@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gnupgp on My geek blog</title>
+    <link>https://danioche.github.io/blog/tags/gnupgp/</link>
+    <description>Recent content in gnupgp on My geek blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0100</lastBuildDate><atom:link href="https://danioche.github.io/blog/tags/gnupgp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securizing Org files with Org-crypt</title>
+      <link>https://danioche.github.io/blog/post/securizing-org-files-org-crypt/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://danioche.github.io/blog/post/securizing-org-files-org-crypt/</guid>
+      
+        <description>1Inspiration This comes from the need that I am using python in org-babel to integrate my PM workflow between org-mode and JIRA.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

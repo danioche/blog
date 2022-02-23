@@ -6,7 +6,40 @@
     <description>Recent content in Tags on My geek blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Jan 2022 00:00:00 +0100</lastBuildDate><atom:link href="https://danioche.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0100</lastBuildDate><atom:link href="https://danioche.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>emacs</title>
+      <link>https://danioche.github.io/blog/tags/emacs/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://danioche.github.io/blog/tags/emacs/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>gnupgp</title>
+      <link>https://danioche.github.io/blog/tags/gnupgp/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://danioche.github.io/blog/tags/gnupgp/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>org</title>
+      <link>https://danioche.github.io/blog/tags/org/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://danioche.github.io/blog/tags/org/</guid>
+      
+        <description></description>
+      
+    </item>
+    
     <item>
       <title>data</title>
       <link>https://danioche.github.io/blog/tags/data/</link>
@@ -30,33 +63,11 @@
     </item>
     
     <item>
-      <title>emacs</title>
-      <link>https://danioche.github.io/blog/tags/emacs/</link>
-      <pubDate>Mon, 01 Nov 2021 00:00:00 +0100</pubDate>
-      
-      <guid>https://danioche.github.io/blog/tags/emacs/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
       <title>gtd</title>
       <link>https://danioche.github.io/blog/tags/gtd/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0100</pubDate>
       
       <guid>https://danioche.github.io/blog/tags/gtd/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>org</title>
-      <link>https://danioche.github.io/blog/tags/org/</link>
-      <pubDate>Mon, 01 Nov 2021 00:00:00 +0100</pubDate>
-      
-      <guid>https://danioche.github.io/blog/tags/org/</guid>
       
         <description></description>
       

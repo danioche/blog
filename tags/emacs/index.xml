@@ -6,7 +6,18 @@
     <description>Recent content in emacs on My geek blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://danioche.github.io/blog/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0100</lastBuildDate><atom:link href="https://danioche.github.io/blog/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securizing Org files with Org-crypt</title>
+      <link>https://danioche.github.io/blog/post/securizing-org-files-org-crypt/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://danioche.github.io/blog/post/securizing-org-files-org-crypt/</guid>
+      
+        <description>1Inspiration This comes from the need that I am using python in org-babel to integrate my PM workflow between org-mode and JIRA.</description>
+      
+    </item>
+    
     <item>
       <title>Getting lost and found</title>
       <link>https://danioche.github.io/blog/post/getting-lost-and-found/</link>
