@@ -30,8 +30,8 @@ body {
 
 @font-face {
     font-family: 'Digital Display';
-    src: url('static/fnt/Digital-Display.woff2') format('woff2'),
-        url('static/fnt/Digital-Display.woff2') format('woff');
+    src: url('fnt/Digital-Display.woff2') format('woff2'),
+        url('fnt/Digital-Display.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
