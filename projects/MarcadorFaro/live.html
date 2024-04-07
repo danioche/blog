@@ -1,0 +1,137 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcador de CB El Faro 🏀</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body onload="">
+    <div class="court">
+            <div class="container" >
+                <div class="scoreboard" id="scoreboard">
+                    <div class="team-container">
+                        <h2 class="text" id="titleHome">HOME</h2>
+                            <div class="one">
+                                <p class="pts" id="home-pts">0</p>
+                                <p class="pts-shadow">000</p>
+                            </div>
+                    </div>
+                    <div class="team-container">
+                        <h2 class="text" id="titleGuest">GUEST</h2>
+                            <div class="one">
+                                <p class="pts" id="guest-pts">0</p>
+                                <p class="pts-shadow">000</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="timeboard">
+                    <h2 class="text" id="time_label">TIEMPO</h2>
+                    <h2 class="text" id="time">1Q</h2>
+                </div>
+            </div>
+            <!-- CANCHA -->                        
+            <svg viewBox="0 0 1227 653" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="cancha">
+                <defs>
+                    <rect id="path-1" x="0" y="0" width="1227" height="653"></rect>
+                    <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1227" height="653" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1227" height="653" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <rect id="path-5" x="0" y="221" width="248" height="207"></rect>
+                    <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="248" height="207" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <rect id="path-7" x="0" y="221" width="248" height="207"></rect>
+                    <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="248" height="207" fill="white">
+                        <use xlink:href="#path-7"></use>
+                    </mask>
+                    <circle id="path-9" cx="344.5" cy="289.5" r="11.5"></circle>
+                    <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-10">
+                        <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+                        <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+                        <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                        <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+                        <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.200860507 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+                    </filter>
+                    <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-11">
+                        <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+                        <feGaussianBlur stdDeviation="3" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+                        <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+                        <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+                        <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.299592391 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+                    </filter>
+                    <circle id="path-12" cx="295.5" cy="94.5" r="11.5"></circle>
+                    <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-13">
+                        <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+                        <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+                        <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                        <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+                        <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.200860507 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+                    </filter>
+                    <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-14">
+                        <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+                        <feGaussianBlur stdDeviation="3" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+                        <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+                        <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+                        <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.299592391 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+                    </filter>
+                    <g id="half-court">
+                        <rect id="Rectangle-3" fill="#ffffff" opacity='.3' x="3" y="223" width="244" height="25"></rect>
+                        <rect id="Rectangle-3" fill="#ffffff" opacity='.3' x="3" y="401" width="244" height="25"></rect>
+                        <rect id="Rectangle-3" fill="#ffffff" opacity=".3" x="3" y="248" width="244" height="153"></rect>
+                        <path d="M95,427.5 L95,431" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M110,427.5 L110,431" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M151,427.5 L151,431" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M193,427.5 L193,431" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M110,218.5 L110,222" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M95,218.5 L95,222" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M151,218.5 L151,222" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M193,218.5 L193,222" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M173,262.5 L173,268" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M173,381.5 L173,387" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M54,285.5 L54,363.50641" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M1.5,248 L246.573458,248" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M1.5,401 L246.573458,401" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M247.5,401 C289.749783,401 324,366.749783 324,324.5 C324,282.250217 289.749783,248 247.5,248 C246.432805,248.355476 247.5,282.250217 247.5,324.5 C247.5,366.749783 246.814329,400.411994 247.5,401 Z" id="Oval-2" stroke="#000000" stroke-width="2"></path>
+                        <path d="M54.5,322 L60.5,322" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M54.5,327 L60.5,327" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M55.5,274 L76.7132034,274" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M55.5,376 L76.7132034,376" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M3.5,608 L185.524724,608" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M3.5,41 L185.524724,41" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M366,0.5 L366,39" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M366,610.5 L366,649" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M77.4637236,273.984662 C121.15075,282.73458 122.101692,324.513295 122.101692,324.513295 C122.101692,324.513295 121.825169,368.146137 77.4637236,375.996413" id="Path-2" stroke="#000000" stroke-width="2"></path>
+                        <circle id="Oval" stroke="#000000" stroke-width="2" cx="71" cy="325" r="10"></circle>
+                        <circle id="Oval-3" stroke="#000000" stroke-width="2" stroke-dasharray="21,20" cx="247.5" cy="324.5" r="76.5"></circle>
+                        <use id="Rectangle-2" stroke="#000000" mask="url(#mask-6)" stroke-width="4" xlink:href="#path-5"></use>
+                        <path d="M186.08649,40.9479986 C186.08649,40.9479986 380,118.085656 380,325 C380,531.914344 186.08649,608.087891 186.08649,608.087891" id="Path-3" stroke="#000000" stroke-width="2"></path>
+                    </g>
+                </defs>
+                <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <image id="wood-floor" x="2" y="0" width="1227" xlink:href="./static/img/basketball-floor-texture.png"></image>
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="court-outline" stroke="#000000" mask="url(#mask-2)" stroke-width="6">
+                        <use mask="url(#mask-4)" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M613,2.5 L613,652.00077" id="half-court-line" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+                    
+                    <use xlink:href="#half-court" transform="translate(0, 2)"></use>
+                    <use xlink:href="#half-court" transform="translate(1037, 326) scale(-1, 1) translate(-1037, -326) translate(847, 2)"></use>
+                    
+                    <image id="home_logo" x="503" y="192" width="220" height="270" opacity="1" xlink:href="./static/img/BallFaro.png"></image>
+                    
+                
+                </g>
+            </svg>
+    </div>
+</body>
+</html>
