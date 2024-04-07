@@ -30,8 +30,8 @@ body {
 
 @font-face {
     font-family: 'Digital Display';
-    src: url('/projects/MarcadorFaro/static/fnt/Digital-Display.woff2') format('woff2'),
-        url('/projects/MarcadorFaro/static/fnt/Digital-Display.woff2') format('woff');
+    src: url('/blog/projects/MarcadorFaro/static/fnt/Digital-Display.woff2') format('woff2'),
+        url('/blog/projects/MarcadorFaro/static/fnt/Digital-Display.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
