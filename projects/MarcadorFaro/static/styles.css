@@ -35,7 +35,7 @@ body {
     left: 70%;
     width: 61px;
     height: 72px;
-    background: url('img/jugador.png') no-repeat 50% 50%;
+    background: url('./img/jugador.png') no-repeat 50% 50%;
 }
 
 #jugadorEnemy {
@@ -55,14 +55,14 @@ body {
     margin-left: 5px;
     margin-top: 5px;
     background-color: red;
-    -webkit-mask:  url('img/camisetaTiny.svg') no-repeat 50% 50%;
-    mask: url('img/camisetaTiny.svg') no-repeat 50% 50%;
+    -webkit-mask:  url('./img/camisetaTiny.svg') no-repeat 50% 50%;
+    mask: url('./img/camisetaTiny.svg') no-repeat 50% 50%;
 }
 
 @font-face {
     font-family: 'Digital Display';
-    src: url('fnt/Digital-Display.woff2') format('woff2'),
-        url('fnt/Digital-Display.woff2') format('woff');
+    src: url('./fnt/Digital-Display.woff2') format('woff2'),
+        url('./fnt/Digital-Display.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -70,7 +70,7 @@ body {
 
 @font-face {
     font-family: 'Revue';
-    src: url('fnt/revuen.woff') format('woff');
+    src: url('./fnt/revuen.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -229,7 +229,7 @@ a.item {
     grid-row-start:auto;
     width: 100%;
     height: 100%;
-    cursor: url("img/ball-tn.png"), auto;
+    cursor: url("./img/ball-tn.png"), auto;
 }
 
 /* The Modal (background) */
@@ -467,7 +467,7 @@ button:hover , .topnav input[type=submit]:hover{
     display: inline-block;
     width: 150px;
     height: 200px;
-    background-image: url('img/camisetaFaroM.png');
+    background-image: url('./img/camisetaFaroM.png');
     background-repeat: no-repeat;
     text-align: center;
     padding-top: 15px;
@@ -492,8 +492,8 @@ button:hover , .topnav input[type=submit]:hover{
     width: 150px;
     height: 200px;
     background-color: red;
-    -webkit-mask:  url('img/camiseta.svg') no-repeat 50% 50%;
-    mask: url('img/camiseta.svg') no-repeat 50% 50%;
+    -webkit-mask:  url('./img/camiseta.svg') no-repeat 50% 50%;
+    mask: url('./img/camiseta.svg') no-repeat 50% 50%;
     text-align: center;
     padding-top: 15px;
     margin-left: 25px;
