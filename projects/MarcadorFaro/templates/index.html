@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcador de CB El Faro 🏀</title>
     <link rel="stylesheet" href="static/styles.css">
+    <!-- Static Deploy -->
     <link rel="stylesheet" href="static/font-awesome.min.css">
+    <!-- Server Deploy -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <script src="static/data/players.js" lang="js"></script>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
@@ -132,10 +136,10 @@
                 
             </div>
             <!-- MODAL -->
-            <div id="myModal" class="modal">
+            <div id="myModal" class="modal" style="display: none;">
                 <div class="modal-content">
                     <span class="close">&times;</span>
-                    <div class="modal-text" id="modal-text-setup" style="display: none;">
+                    <div class="modal-text" id="modal-text-setup" style="display: block;">
                         <p>
                             ¿Contra quién jugamos?
                             <center>
@@ -307,7 +311,8 @@
       modal.style.display = "none";
       modal_text.style.display = "none";
     }
-    
+
+
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
       if (event.target == modal) {
