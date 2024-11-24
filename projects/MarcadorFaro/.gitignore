@@ -1,0 +1,5 @@
+# Ignoring specific game data
+static/data/gameLogs/*
+__pycache__
+__pycache__/*
+

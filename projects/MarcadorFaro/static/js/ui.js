@@ -158,8 +158,8 @@ canchaGridObj.addEventListener("click", moveBall, false);
 
 
 function getBallPos(){
-    var dm = document.getElementById('balon');
-    return [ dm.style.left, dm.style.top ];
+    
+    return [ gGridActive[0], gGridActive[1] ];
 }
 /// ! Drag and Drop ! ------------------------------------------------------
 

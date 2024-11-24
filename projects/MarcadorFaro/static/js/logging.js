@@ -51,9 +51,8 @@ function startLog(){
     var lGuest = document.getElementById("titleGuest").innerHTML;
     var w = window.innerWidth;
     var h = window.innerHeight;
-    logEvent("BOTH","ALL","START","Inicio del Partido "+ lHome+" vs. "+lGuest+ " - ("+w+"x"+h+")");
+    logEvent("BOTH","ALL","START","Inicio del Partido "+ lHome+" vs. "+lGuest+ " - ("+w+"x"+h+") grid("+gGridDimmensions[0]+","+gGridDimmensions[1]+")");
     logEvent("BOTH","ALL","TEAMS",lHome+":"+lGuest);
-    logEvent("BOTH","ALL","QUARTERS",gQuartersMany);
     updateLog();
 }
 /// 

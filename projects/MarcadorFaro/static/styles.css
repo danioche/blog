@@ -5,7 +5,6 @@ body {
     margin: 0;
 }
 
-
 #cancha{
     margin:10%;
     margin-top: 6%;
@@ -35,7 +34,7 @@ body {
     left: 70%;
     width: 61px;
     height: 72px;
-    background: url('./img/jugador.png') no-repeat 50% 50%;
+    background: url('img/jugador.png') no-repeat 50% 50%;
 }
 
 #jugadorEnemy {
@@ -55,14 +54,14 @@ body {
     margin-left: 5px;
     margin-top: 5px;
     background-color: red;
-    -webkit-mask:  url('./img/camisetaTiny.svg') no-repeat 50% 50%;
-    mask: url('./img/camisetaTiny.svg') no-repeat 50% 50%;
+    -webkit-mask:  url('img/camisetaTiny.svg') no-repeat 50% 50%;
+    mask: url('img/camisetaTiny.svg') no-repeat 50% 50%;
 }
 
 @font-face {
     font-family: 'Digital Display';
-    src: url('./fnt/Digital-Display.woff2') format('woff2'),
-        url('./fnt/Digital-Display.woff2') format('woff');
+    src: url('fnt/Digital-Display.woff2') format('woff2'),
+        url('fnt/Digital-Display.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -70,7 +69,7 @@ body {
 
 @font-face {
     font-family: 'Revue';
-    src: url('./fnt/revuen.woff') format('woff');
+    src: url('fnt/revuen.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -229,7 +228,7 @@ a.item {
     grid-row-start:auto;
     width: 100%;
     height: 100%;
-    cursor: url("./img/ball-tn.png"), auto;
+    cursor: url("img/ball-tn.png"), auto;
 }
 
 /* The Modal (background) */
@@ -467,7 +466,7 @@ button:hover , .topnav input[type=submit]:hover{
     display: inline-block;
     width: 150px;
     height: 200px;
-    background-image: url('./img/camisetaFaroM.png');
+    background-image: url('img/camisetaFaroM.png');
     background-repeat: no-repeat;
     text-align: center;
     padding-top: 15px;
@@ -492,8 +491,8 @@ button:hover , .topnav input[type=submit]:hover{
     width: 150px;
     height: 200px;
     background-color: red;
-    -webkit-mask:  url('./img/camiseta.svg') no-repeat 50% 50%;
-    mask: url('./img/camiseta.svg') no-repeat 50% 50%;
+    -webkit-mask:  url('img/camiseta.svg') no-repeat 50% 50%;
+    mask: url('img/camiseta.svg') no-repeat 50% 50%;
     text-align: center;
     padding-top: 15px;
     margin-left: 25px;
@@ -572,30 +571,64 @@ button:hover , .topnav input[type=submit]:hover{
     color: black;
 }
 
-/*****  RESPONSIVENES  *****/
+/*****  RESPONSIVENES *****/
+/** 
+* Mobile version is light do not includes full options
+**/
 
 @media (max-width: 900px) {
     .scoreboard {
-        width: 40vw;
+        width: 75vw;
+        margin-top: 7vw;
+    }
+    .footer{
+        top: 5vw;
+        left: 80%;
+        display: none;
     }
     h2 {
-        font-size: 3vw;
+        font-size: 8vw;
     }
     .one {
-        width: 12.5vw;
-        height: 9vw;
+        width: 24.5vw;
+        height: 14vw;
+        margin-bottom: 5px !important;
     }
     .pts {
-        font-size: 9vw;
+        font-size: 13vw;
     }
     .pts-shadow {
-        font-size: 9.5vw;
+        font-size: 13.5vw;
     }
     .two {
-        width: 11vw;
-        transform: translateX(-15%);
+        width: 24.5vw;
+        transform: translateX(0.5vw);
     }
     button {
-        font-size: 2.5vw;
+        font-size: 3.5vw;
+    }
+    #cancha{
+        margin: 0;
+        margin-top: 0;
+        width: 100%;
+        height: 90%;
+    }
+    #balon, #jugador{
+        display: none;
+    }
+    #home-pts , #guest-pts {
+        margin:0px;
+        transform: translateX(-50%,-50%);
+        left: 45%;
+    }
+    .modal-content{
+        width: 80%;
+        margin-top: -12%;
+    }
+    .modal button{
+        font-size: 2vw;
+    }
+    .container{
+        margin: 0px;
     }
 } 
