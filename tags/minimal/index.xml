@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>minimal on My geek blog</title>
+    <link>https://danioche.github.io/blog/tags/minimal/</link>
+    <description>Recent content in minimal on My geek blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 06 Feb 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://danioche.github.io/blog/tags/minimal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Minimizing the blog concept</title>
+      <link>https://danioche.github.io/blog/post/minimizing-blog-concept/</link>
+      <pubDate>Sat, 06 Feb 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://danioche.github.io/blog/post/minimizing-blog-concept/</guid>
+      
+        <description>This is one of the main principles of this blog: to avoid bloated meta-information just to support content.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

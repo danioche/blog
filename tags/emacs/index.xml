@@ -14,7 +14,7 @@
       
       <guid>https://danioche.github.io/blog/post/securizing-org-files-org-crypt/</guid>
       
-        <description>1Inspiration This comes from the need that I am using python in org-babel to integrate my PM workflow between org-mode and JIRA.</description>
+        <description>Inspiration This comes from the need that I am using python in org-babel to integrate my PM workflow between org-mode and JIRA.</description>
       
     </item>
     
@@ -26,6 +26,17 @@
       <guid>https://danioche.github.io/blog/post/getting-lost-and-found/</guid>
       
         <description>It&amp;rsquo;s really frustrating to be following your own footsteps every time, as you may notice I love exploring, trying new things, tools, commands, etc&amp;hellip; I would say that I&amp;rsquo;m not the only one that &amp;ldquo;learned&amp;rdquo; something new on the terminal after looking for some solutions online and reading some fucking manuals and once configured properly then you forget it almost instantly.</description>
+      
+    </item>
+    
+    <item>
+      <title>Learning and adopting Hugo on this blog</title>
+      <link>https://danioche.github.io/blog/post/learning-adopting-hugo/</link>
+      <pubDate>Sat, 03 Apr 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://danioche.github.io/blog/post/learning-adopting-hugo/</guid>
+      
+        <description>This is my very first post exported from Hugo&amp;hellip; Let&amp;rsquo;s learn!</description>
       
     </item>
     

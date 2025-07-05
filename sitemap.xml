@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://danioche.github.io/blog/</loc>
-    <lastmod>2024-11-22T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://danioche.github.io/blog/post/configuring-org-roam/</loc>
     <lastmod>2024-11-22T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://danioche.github.io/blog/tags/mindmapping/</loc>
+    <lastmod>2024-11-22T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/</loc>
     <lastmod>2024-11-22T00:00:00+01:00</lastmod>
   </url>
   
@@ -38,22 +38,12 @@
   </url>
   
   <url>
-    <loc>https://danioche.github.io/blog/tags/gnupgp/</loc>
-    <lastmod>2022-09-14T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://danioche.github.io/blog/tags/security/</loc>
-    <lastmod>2022-09-14T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://danioche.github.io/blog/post/using-gnupgp-for-good/</loc>
-    <lastmod>2022-09-14T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://danioche.github.io/blog/tags/emacs/</loc>
+    <lastmod>2022-02-23T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/tags/gnupgp/</loc>
     <lastmod>2022-02-23T00:00:00+01:00</lastmod>
   </url>
   
@@ -113,6 +103,16 @@
   </url>
   
   <url>
+    <loc>https://danioche.github.io/blog/tags/blogging/</loc>
+    <lastmod>2021-02-06T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danioche.github.io/blog/tags/minimal/</loc>
+    <lastmod>2021-02-06T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://danioche.github.io/blog/post/minimizing-blog-concept/</loc>
     <lastmod>2021-02-06T00:00:00+01:00</lastmod>
   </url>
@@ -159,14 +159,6 @@
   
   <url>
     <loc>https://danioche.github.io/blog/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://danioche.github.io/blog/post/blog/</loc>
-  </url>
-  
-  <url>
-    <loc>https://danioche.github.io/blog/tags/index/</loc>
   </url>
   
 </urlset>

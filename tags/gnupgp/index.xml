@@ -6,18 +6,7 @@
     <description>Recent content in gnupgp on My geek blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Sep 2022 00:00:00 +0200</lastBuildDate><atom:link href="https://danioche.github.io/blog/tags/gnupgp/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Using GnuPGP for good and for a Project Manager IC level</title>
-      <link>https://danioche.github.io/blog/post/using-gnupgp-for-good/</link>
-      <pubDate>Wed, 14 Sep 2022 00:00:00 +0200</pubDate>
-      
-      <guid>https://danioche.github.io/blog/post/using-gnupgp-for-good/</guid>
-      
-        <description>This post is a practice on GnuPGP to add some security on sensitive information but a very basic level.</description>
-      
-    </item>
-    
+    <lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0100</lastBuildDate><atom:link href="https://danioche.github.io/blog/tags/gnupgp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Securizing Org files with Org-crypt</title>
       <link>https://danioche.github.io/blog/post/securizing-org-files-org-crypt/</link>
@@ -25,7 +14,7 @@
       
       <guid>https://danioche.github.io/blog/post/securizing-org-files-org-crypt/</guid>
       
-        <description>1Inspiration This comes from the need that I am using python in org-babel to integrate my PM workflow between org-mode and JIRA.</description>
+        <description>Inspiration This comes from the need that I am using python in org-babel to integrate my PM workflow between org-mode and JIRA.</description>
       
     </item>
     

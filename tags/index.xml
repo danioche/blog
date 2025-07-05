@@ -41,33 +41,22 @@
     </item>
     
     <item>
-      <title>gnupgp</title>
-      <link>https://danioche.github.io/blog/tags/gnupgp/</link>
-      <pubDate>Wed, 14 Sep 2022 00:00:00 +0200</pubDate>
-      
-      <guid>https://danioche.github.io/blog/tags/gnupgp/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>security</title>
-      <link>https://danioche.github.io/blog/tags/security/</link>
-      <pubDate>Wed, 14 Sep 2022 00:00:00 +0200</pubDate>
-      
-      <guid>https://danioche.github.io/blog/tags/security/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
       <title>emacs</title>
       <link>https://danioche.github.io/blog/tags/emacs/</link>
       <pubDate>Wed, 23 Feb 2022 00:00:00 +0100</pubDate>
       
       <guid>https://danioche.github.io/blog/tags/emacs/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>gnupgp</title>
+      <link>https://danioche.github.io/blog/tags/gnupgp/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://danioche.github.io/blog/tags/gnupgp/</guid>
       
         <description></description>
       
@@ -140,6 +129,28 @@
     </item>
     
     <item>
+      <title>blogging</title>
+      <link>https://danioche.github.io/blog/tags/blogging/</link>
+      <pubDate>Sat, 06 Feb 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://danioche.github.io/blog/tags/blogging/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>minimal</title>
+      <link>https://danioche.github.io/blog/tags/minimal/</link>
+      <pubDate>Sat, 06 Feb 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://danioche.github.io/blog/tags/minimal/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
       <title>css</title>
       <link>https://danioche.github.io/blog/tags/css/</link>
       <pubDate>Sat, 30 Jan 2021 00:00:00 +0100</pubDate>
@@ -167,17 +178,6 @@
       <pubDate>Sat, 30 Jan 2021 00:00:00 +0100</pubDate>
       
       <guid>https://danioche.github.io/blog/tags/tricks/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>index</title>
-      <link>https://danioche.github.io/blog/tags/index/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danioche.github.io/blog/tags/index/</guid>
       
         <description></description>
       
