@@ -7,7 +7,7 @@
   <title>
     Dani
       |
-      How to deobfuscate CSS
+      Using GnuPGP for good and for a Project Manager IC level
 
 
     
@@ -56,7 +56,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon/favicon-16x16.png" />
 
-  <link rel="canonical" href="https://danioche.github.io/blog/post/how-to-deobfuscate-css/" />
+  <link rel="canonical" href="https://danioche.github.io/blog/post/using-gnupgp-for-good/" />
 
   
   
@@ -83,8 +83,8 @@
   <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://danioche.github.io/blog/img/thisIsLife.png"/>
 
-<meta name="twitter:title" content="How to deobfuscate CSS"/>
-<meta name="twitter:description" content="I found a very quite simple process to deobfuscate CSS files This is simple, if the CSS is not linked to any page, just link it in the HTML and open the ."/>
+<meta name="twitter:title" content="Using GnuPGP for good and for a Project Manager IC level"/>
+<meta name="twitter:description" content="This post is a practice on GnuPGP to add some security on sensitive information but a very basic level."/>
 
 
 
@@ -100,12 +100,12 @@
         "@context": "http://schema.org",
         "@type": "BlogPosting",
         "articleSection": "post",
-        "name": "How to deobfuscate CSS",
-        "headline": "How to deobfuscate CSS",
+        "name": "Using GnuPGP for good and for a Project Manager IC level",
+        "headline": "Using GnuPGP for good and for a Project Manager IC level",
         "alternativeHeadline": "",
         "description": "
       
-        I found a very quite simple process to deobfuscate CSS files This is simple, if the CSS is not linked to any page, just link it in the HTML and open the .
+        This post is a practice on GnuPGP to add some security on sensitive information but a very basic level.
 
 
       
@@ -116,7 +116,7 @@
         "isFamilyFriendly": "true",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/danioche.github.io\/blog\/post\/how-to-deobfuscate-css\/"
+            "@id": "https:\/\/danioche.github.io\/blog\/post\/using-gnupgp-for-good\/"
         },
         "author" : {
             "@type": "Person",
@@ -134,10 +134,10 @@
             "@type": "Person",
             "name": "[@danioche]"
         },
-        "copyrightYear" : "2021",
-        "dateCreated": "2021-01-30T00:00:00.00Z",
-        "datePublished": "2021-01-30T00:00:00.00Z",
-        "dateModified": "2021-01-30T00:00:00.00Z",
+        "copyrightYear" : "2022",
+        "dateCreated": "2022-09-14T00:00:00.00Z",
+        "datePublished": "2022-09-14T00:00:00.00Z",
+        "dateModified": "2022-09-14T00:00:00.00Z",
         "publisher":{
             "@type":"Organization",
             "name": ["@danioche"],
@@ -159,19 +159,19 @@
       ]
 
     ,
-        "url" : "https:\/\/danioche.github.io\/blog\/post\/how-to-deobfuscate-css\/",
-        "wordCount" : "65",
+        "url" : "https:\/\/danioche.github.io\/blog\/post\/using-gnupgp-for-good\/",
+        "wordCount" : "218",
         "genre" : [ ],
         "keywords" : [ 
       
-      "css"
+      "gnupgp"
 
     
       
         ,
 
       
-      "tricks"
+      "security"
 
     ]
     }
@@ -345,36 +345,63 @@
     <div class="post-content">
       
       <div class="post-title">
-        <h1>How to deobfuscate CSS</h1>
+        <h1>Using GnuPGP for good and for a Project Manager IC level</h1>
         
           <div class="info">
             <em class="fas fa-calendar-day"></em>
             <span class="date"
               >
-                Sat, Jan 30, 2021
+                Wed, Sep 14, 2022
 
 
               </span
             >
             <em class="fas fa-stopwatch"></em>
-            <span class="reading-time">One-minute read</span>
+            <span class="reading-time">2-minute read</span>
           </div>
 
         
-      </div><p>I found a very quite simple process to deobfuscate CSS files This is
-simple, if the CSS is not linked to any page, just link it in the
-HTML and open the .html file on Firefox and open CSS inspection with
-Developers tools (F12).</p>
-<p>Copy all the contents and paste it on a new file, now you have a
-readable CSS to work on.</p>
-<p>Cheers.</p>
+      </div><p>This post is a practice on GnuPGP to add some security on sensitive
+information but a very basic level.</p>
+<h2 id="problem-motivation"><!-- raw HTML omitted -->1<!-- raw HTML omitted --> Problem / Motivation</h2>
+<p>For me privacy has been always a concern and a paranoia at the same
+time but at the end I found myself thinking&hellip; &ldquo;too effort to
+encrypt just my shit&rdquo;. I mean, at the end there is no such big
+secrets after all and specially when you expose yourself in daily
+basis with all the permissions granted to our beloved Google,
+Amazon, Xiaomi, WhatsApp, Facebook, Twitter, Instagram, etc&hellip;</p>
+<p>But I keep trying to keep things with at least &ldquo;some security&rdquo; so I
+decided to explore how to configure more properly secrets on my
+linux configuration.</p>
+<p>Other goal or motivation is to finally know how to manage Keys,
+certificates, and secrets properly.</p>
+<h2 id="main-objectives"><!-- raw HTML omitted -->2<!-- raw HTML omitted --> Main objectives</h2>
+<ol>
+<li>Create some safe directories to store sensitive information</li>
+<li>Easy to manage</li>
+<li>Easy and safe to recover in case of problems</li>
+<li>Autodestruction mode / Dead man proof</li>
+<li>Allow to share on same privacy basis</li>
+<li>All documented</li>
+</ol>
+<h2 id="proof-of-concept"><!-- raw HTML omitted -->3<!-- raw HTML omitted --> Proof of Concept</h2>
+<p>This post is following my own rules on <a href="/blog/post/getting-lost-and-found/">Getting lost and found</a> that
+is documenting the full process firstly for myself to revisit when
+I will forget all the steps and secondly for you my dear visitor,
+thanks for reading!</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">
+gpg --
+</code></pre></div><h2 id="references"><!-- raw HTML omitted -->4<!-- raw HTML omitted --> References</h2>
+<ul>
+<li>[R1-GnuPGPDOC] <a href="https://gnupg.org/gph/en/manual.html">https://gnupg.org/gph/en/manual.html</a></li>
+</ul>
 </div>
     <div class="post-footer">
       <div class="info">
         
 
         
-          <span class="separator"><a class="tag" href="/blog/tags/css/">css</a><a class="tag" href="/blog/tags/tricks/">tricks</a></span>
+          <span class="separator"><a class="tag" href="/blog/tags/gnupgp/">gnupgp</a><a class="tag" href="/blog/tags/security/">security</a></span>
 
 
 

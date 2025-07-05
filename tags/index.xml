@@ -6,24 +6,13 @@
     <description>Recent content in Tags on My geek blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0100</lastBuildDate><atom:link href="https://danioche.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Nov 2024 00:00:00 +0100</lastBuildDate><atom:link href="https://danioche.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>emacs</title>
-      <link>https://danioche.github.io/blog/tags/emacs/</link>
-      <pubDate>Wed, 23 Feb 2022 00:00:00 +0100</pubDate>
+      <title>mindmapping</title>
+      <link>https://danioche.github.io/blog/tags/mindmapping/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0100</pubDate>
       
-      <guid>https://danioche.github.io/blog/tags/emacs/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>gnupgp</title>
-      <link>https://danioche.github.io/blog/tags/gnupgp/</link>
-      <pubDate>Wed, 23 Feb 2022 00:00:00 +0100</pubDate>
-      
-      <guid>https://danioche.github.io/blog/tags/gnupgp/</guid>
+      <guid>https://danioche.github.io/blog/tags/mindmapping/</guid>
       
         <description></description>
       
@@ -32,9 +21,53 @@
     <item>
       <title>org</title>
       <link>https://danioche.github.io/blog/tags/org/</link>
-      <pubDate>Wed, 23 Feb 2022 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0100</pubDate>
       
       <guid>https://danioche.github.io/blog/tags/org/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>roam</title>
+      <link>https://danioche.github.io/blog/tags/roam/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0100</pubDate>
+      
+      <guid>https://danioche.github.io/blog/tags/roam/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>gnupgp</title>
+      <link>https://danioche.github.io/blog/tags/gnupgp/</link>
+      <pubDate>Wed, 14 Sep 2022 00:00:00 +0200</pubDate>
+      
+      <guid>https://danioche.github.io/blog/tags/gnupgp/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://danioche.github.io/blog/tags/security/</link>
+      <pubDate>Wed, 14 Sep 2022 00:00:00 +0200</pubDate>
+      
+      <guid>https://danioche.github.io/blog/tags/security/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>emacs</title>
+      <link>https://danioche.github.io/blog/tags/emacs/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://danioche.github.io/blog/tags/emacs/</guid>
       
         <description></description>
       

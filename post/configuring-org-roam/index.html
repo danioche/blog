@@ -7,7 +7,7 @@
   <title>
     Dani
       |
-      How to deobfuscate CSS
+      Configuring ORG-ROAM
 
 
     
@@ -56,7 +56,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon/favicon-16x16.png" />
 
-  <link rel="canonical" href="https://danioche.github.io/blog/post/how-to-deobfuscate-css/" />
+  <link rel="canonical" href="https://danioche.github.io/blog/post/configuring-org-roam/" />
 
   
   
@@ -83,8 +83,8 @@
   <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://danioche.github.io/blog/img/thisIsLife.png"/>
 
-<meta name="twitter:title" content="How to deobfuscate CSS"/>
-<meta name="twitter:description" content="I found a very quite simple process to deobfuscate CSS files This is simple, if the CSS is not linked to any page, just link it in the HTML and open the ."/>
+<meta name="twitter:title" content="Configuring ORG-ROAM"/>
+<meta name="twitter:description" content="Hi! it has been a while! Sorry about that, you was expeting me?"/>
 
 
 
@@ -100,12 +100,12 @@
         "@context": "http://schema.org",
         "@type": "BlogPosting",
         "articleSection": "post",
-        "name": "How to deobfuscate CSS",
-        "headline": "How to deobfuscate CSS",
+        "name": "Configuring ORG-ROAM",
+        "headline": "Configuring ORG-ROAM",
         "alternativeHeadline": "",
         "description": "
       
-        I found a very quite simple process to deobfuscate CSS files This is simple, if the CSS is not linked to any page, just link it in the HTML and open the .
+        Hi! it has been a while! Sorry about that, you was expeting me?
 
 
       
@@ -116,7 +116,7 @@
         "isFamilyFriendly": "true",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/danioche.github.io\/blog\/post\/how-to-deobfuscate-css\/"
+            "@id": "https:\/\/danioche.github.io\/blog\/post\/configuring-org-roam\/"
         },
         "author" : {
             "@type": "Person",
@@ -134,10 +134,10 @@
             "@type": "Person",
             "name": "[@danioche]"
         },
-        "copyrightYear" : "2021",
-        "dateCreated": "2021-01-30T00:00:00.00Z",
-        "datePublished": "2021-01-30T00:00:00.00Z",
-        "dateModified": "2021-01-30T00:00:00.00Z",
+        "copyrightYear" : "2024",
+        "dateCreated": "2024-11-22T00:00:00.00Z",
+        "datePublished": "2024-11-22T00:00:00.00Z",
+        "dateModified": "2024-11-22T00:00:00.00Z",
         "publisher":{
             "@type":"Organization",
             "name": ["@danioche"],
@@ -159,19 +159,26 @@
       ]
 
     ,
-        "url" : "https:\/\/danioche.github.io\/blog\/post\/how-to-deobfuscate-css\/",
-        "wordCount" : "65",
+        "url" : "https:\/\/danioche.github.io\/blog\/post\/configuring-org-roam\/",
+        "wordCount" : "558",
         "genre" : [ ],
         "keywords" : [ 
       
-      "css"
+      "org"
 
     
       
         ,
 
       
-      "tricks"
+      "roam"
+
+    
+      
+        ,
+
+      
+      "mindmapping"
 
     ]
     }
@@ -345,36 +352,119 @@
     <div class="post-content">
       
       <div class="post-title">
-        <h1>How to deobfuscate CSS</h1>
+        <h1>Configuring ORG-ROAM</h1>
         
           <div class="info">
             <em class="fas fa-calendar-day"></em>
             <span class="date"
               >
-                Sat, Jan 30, 2021
+                Fri, Nov 22, 2024
 
 
               </span
             >
             <em class="fas fa-stopwatch"></em>
-            <span class="reading-time">One-minute read</span>
+            <span class="reading-time">3-minute read</span>
           </div>
 
         
-      </div><p>I found a very quite simple process to deobfuscate CSS files This is
-simple, if the CSS is not linked to any page, just link it in the
-HTML and open the .html file on Firefox and open CSS inspection with
-Developers tools (F12).</p>
-<p>Copy all the contents and paste it on a new file, now you have a
-readable CSS to work on.</p>
-<p>Cheers.</p>
+      </div><p>Hi! it has been a while! Sorry about that, you was expeting me? This
+kind of things happens me a lot. Sometimes I get lost in the deepest
+pit of myself sourrounded with my own demons and expecting to see
+the light one day. I missed you also dear nobody. I&rsquo;m back, maybe
+for a while.</p>
+<h2 id="problem"><!-- raw HTML omitted -->1<!-- raw HTML omitted --> Problem</h2>
+<p>I want a place to keep my learning updated, I found myself
+traveling between contexts and differents plaftforms: corporate
+laptop, personal laptop, personal laptop Windows OS, personal
+laptop Linux OS, other personal laptop (my wife or daughter or my
+home server - also linux &hellip;) and so on.</p>
+<p>It will be nice to have a system to use as one reference for my
+knowledge and if I learn something new I could download, update and
+backup it/store easily.</p>
+<h2 id="hypothesis"><!-- raw HTML omitted -->2<!-- raw HTML omitted --> Hypothesis</h2>
+<p>Is there any system? I tought in a combination of EMACS + GitHub +
+ORG-ROAM, in the sense of having always a way to <strong>capture</strong> new
+ideas or to store new knowledge quick and in a reliable way.</p>
+<p>So the HLD of this idea will be:</p>
+<ul>
+<li>An updated emacs with my config in every place (portable?)
+<ul>
+<li>With my config + org-roam</li>
+</ul>
+</li>
+<li>GH repo</li>
+<li>Git</li>
+</ul>
+<p>done? Let&rsquo;s see.</p>
+<h2 id="installation"><!-- raw HTML omitted -->3<!-- raw HTML omitted --> Installation</h2>
+<p>Let&rsquo;s configure org-roam on this environment (fedora), for
+installing I will guide you from the <a href="https://www.orgroam.com/manual.html#Installation">official installation guide</a>:</p>
+<h3 id="package-install"><!-- raw HTML omitted -->3.1<!-- raw HTML omitted --> Package Install</h3>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">M-x package-install RET org-roam RET
+</code></pre></div><p>First errors found: Failing public key, i found the following error:</p>
+<p>This error seems to be because we are using old EMACS keyring.</p>
+<p>Fixed downloading the key-ring-update tar file:</p>
+<ul>
+<li><a href="https://elpa.gnu.org/packages/gnu-elpa-keyring-update.html">https://elpa.gnu.org/packages/gnu-elpa-keyring-update.html</a></li>
+</ul>
+<p>You get the .tar and use then:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">
+M-x package-install-file RET /path_to_tar_file/gnu-elpa-keyring-update-XXX.tar
+</code></pre></div><p>After that I tryed again and &hellip; it worked :D!! 🎆
+&hellip;. but then org-roam installed but the nodes can&rsquo;t be
+created&hellip;.  after some investigation finally I cleared the
+<strong>elpa</strong> folder leaving only the emacsql client for org-roam. Seems
+that I was having problems and a lots of issues on different
+packages, so I endend clearing up every emacsql package and
+installing from elpa site ( here <a href="https://elpa.nongnu.org/nongnu/emacsql.html">emacsql</a> ). It worked! 🐣</p>
+<h3 id="getting-started-and-ensuring-that-is-working"><!-- raw HTML omitted -->3.2<!-- raw HTML omitted --> Getting started and ensuring that is working</h3>
+<p>Now few things has to be done to ensure that is working fine, that are:</p>
+<ol>
+<li>
+<p>Org-roam directory configuration</p>
+<p>You will need to add the following to your emacs config file</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">(setq org-roam-directory (file-truename &#34;~/org-roam&#34;))
+(org-roam-db-autosync-mode)
+</code></pre></div><p><strong>The last line was the hard one&hellip; that revealed that I
+needed to resolve the emacsql thing commented above.</strong> 😌</p>
+</li>
+<li>
+<p>Adding org-roam-ui</p>
+<p>For a better presentation and use I added also <strong>org-roam-ui</strong> package.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">M-x package-install RET org-roam-ui RET
+</code></pre></div><p>Warnings may appear on <strong><strong>Compile-Log</strong></strong> buffer. But if there
+are only warnings is just OK.</p>
+</li>
+<li>
+<p>Configuring templates and captures</p>
+<p>This is an extra step for the most of you the interactive
+version (mainly M-x org-caputure is just ok), but you may
+want to add more spice to your dish, for that purpose you
+will need to review the templates, there are as many
+functions and utils as you want to code, just follow
+<a href="https://www.orgroam.com/manual.html#The-Templating-System">Templating-System</a>.</p>
+</li>
+<li>
+<p>Keep learning</p>
+<p>The org-roam is based in the org-mode ecosystem so the
+options and extensions on your workflow can be limitless,
+this is the beauty of emacs ecosystem btw.</p>
+</li>
+<li>
+<p>Enjoy!</p>
+<p>For me is amazing when finally is working :D for the most of
+you probably you&rsquo;ll have no problems, but my story is always
+learning the hard way&hellip; hopefully now it&rsquo;s working.</p>
+</li>
+</ol>
 </div>
     <div class="post-footer">
       <div class="info">
         
 
         
-          <span class="separator"><a class="tag" href="/blog/tags/css/">css</a><a class="tag" href="/blog/tags/tricks/">tricks</a></span>
+          <span class="separator"><a class="tag" href="/blog/tags/org/">org</a><a class="tag" href="/blog/tags/roam/">roam</a><a class="tag" href="/blog/tags/mindmapping/">mindmapping</a></span>
 
 
 
